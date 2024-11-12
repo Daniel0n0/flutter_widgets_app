@@ -68,8 +68,7 @@ class _ButtonsVew extends StatelessWidget {
               label: const Text('Text Icon'),
             ),
 
-            const CustomButton(),
-
+            const _CustomButton(),
             IconButton(onPressed: () {}, icon: const Icon(Icons.app_registration_rounded)),
             IconButton(
               onPressed: () {}, 
@@ -86,8 +85,8 @@ class _ButtonsVew extends StatelessWidget {
   }
 }
 
-class CustomButton extends StatelessWidget {
-  const CustomButton({super.key});
+class _CustomButton extends StatelessWidget {
+  const _CustomButton();
 
   @override
   Widget build(BuildContext context) {
